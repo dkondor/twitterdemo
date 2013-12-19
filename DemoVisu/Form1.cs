@@ -183,7 +183,7 @@ namespace DemoVisu
                 }
 
                 Projection.ProjectionView view = (Projection.ProjectionView)arguments[2];
-                hist_sentiment.MapView = (uint)view;
+                hist_sentiment.MapView = view;
 
                 bool querychanged2 = (bool)arguments[3];
                 hist_sentiment.Col3 = true;
@@ -498,7 +498,7 @@ namespace DemoVisu
         }
 
         private void ReadRegionList() {
-            TextReader tr1 = new StreamReader("info\\regionID2.txt");
+            TextReader tr1 = new StreamReader("info\\regionIDs.txt");
             string temp = "";
 
             while ((temp = tr1.ReadLine()) != null) {

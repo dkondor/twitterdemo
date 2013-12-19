@@ -78,13 +78,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="info\colorScales.txt" />
-    <Content Include="info\regionIDs.txt" />
-    <Content Include="info\usaRegionIDs.txt" />
-    <Content Include="pics\bg-loading.gif" />
+    <Content Include="info\regionIDs.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="info\usaRegionIDs.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pics\bg-loading.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="pics\califlogp.png" />
     <Content Include="pics\cnl.jpg" />
-    <Content Include="pics\Error.png" />
-    <Content Include="pics\stop.png" />
+    <Content Include="pics\Error.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pics\stop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GeoVisualizer2\GeoVisualizer2.csproj">

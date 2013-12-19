@@ -441,7 +441,7 @@ if (r >= regions)
 
 
         private void OnBeginRender() {
-            if (armap[MapView] == null || n == 0 || ids == null || armap2[MapView] == null) {
+            if (armap[mapview2] == null || n == 0 || ids == null || armap2[mapview2] == null) {
                 throw new Exception("DrawMap.OnBeginRender(): uninitialized members! (first call CreateMap())\n");
             }
             
@@ -464,8 +464,8 @@ if (r >= regions)
         }
 
         private Bitmap OnEndRender(double min, double max) {
-            Bitmap rmap = armap[MapView];
-            Bitmap rmap2 = armap2[MapView];
+            Bitmap rmap = armap[mapview2];
+            Bitmap rmap2 = armap2[mapview2];
             Rectangle rect = new Rectangle(0, 0, rmap.Width, rmap.Height);
             Bitmap bmp = rmap.Clone(rect, PixelFormat.Format32bppArgb);
             
