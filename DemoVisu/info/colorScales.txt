@@ -1,0 +1,3 @@
+﻿1	Color1
+2	Color2
+3	Color3

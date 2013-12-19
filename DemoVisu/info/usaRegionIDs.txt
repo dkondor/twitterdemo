@@ -1,0 +1,51 @@
+﻿3406	Alabama
+3407	Alaska
+3408	Arizona
+3409	Arkansas
+3410	California
+3411	Colorado
+3412	Connecticut
+3413	Delaware
+3414	District of Columbia
+3415	Florida
+3416	Georgia
+3417	Hawaii
+3418	Idaho
+3419	Illinois
+3420	Indiana
+3421	Iowa
+3422	Kansas
+3423	Kentucky
+3424	Louisiana
+3425	Maine
+3426	Maryland
+3427	Massachusetts
+3428	Michigan
+3429	Minnesota
+3430	Mississippi
+3431	Missouri
+3432	Montana
+3433	Nebraska
+3434	Nevada
+3435	New Hampshire
+3436	New Jersey
+3437	New Mexico
+3438	New York
+3439	North Carolina
+3440	North Dakota
+3441	Ohio
+3442	Oklahoma
+3443	Oregon
+3444	Pennsylvania
+3445	Rhode Island
+3446	South Carolina
+3447	South Dakota
+3448	Tennessee
+3449	Texas
+3450	Utah
+3451	Vermont
+3452	Virginia
+3453	Washington
+3454	West Virginia
+3455	Wisconsin
+3456	Wyoming

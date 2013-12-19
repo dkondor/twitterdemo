@@ -1,0 +1,88 @@
+﻿1	Afghanistan
+4	Algeria
+7	Angola
+9	Antarctica
+11	Argentina
+14	Australia
+21	Belarus
+27	Bolivia
+30	Botswana
+32	Brazil
+37	Burkina Faso
+40	Cameroon
+41	Canada
+43	Caspian Sea
+45	Central African Republic
+46	Chad
+47	Chile
+48	China
+52	Colombia
+55	Côte d'Ivoire
+61	Democratic Republic of the Congo
+66	Ecuador
+67	Egypt
+72	Ethiopia
+76	Finland
+77	France
+81	Gabon
+84	Germany
+85	Ghana
+88	Greenland
+92	Guinea
+94	Guyana
+101	India
+102	Indonesia
+103	Iran
+104	Iraq
+108	Italy
+110	Japan
+112	Kazakhstan
+113	Kenya
+118	Laos
+123	Libya
+129	Madagascar
+131	Malaysia
+133	Mali
+137	Mauritania
+140	Mexico
+144	Mongolia
+147	Morocco
+148	Mozambique
+149	Myanmar
+150	Namibia
+155	New Zealand
+157	Niger
+158	Nigeria
+163	Norway
+164	Oman
+165	Pakistan
+169	Papua New Guinea
+170	Paraguay
+171	Peru
+172	Philippines
+174	Poland
+178	Republic of Congo
+180	Romania
+181	Russia
+193	Saudi Arabia
+203	Somalia
+204	South Africa
+207	South Sudan
+208	Spain
+211	Sudan
+215	Sweden
+220	Tanzania
+221	Thailand
+227	Turkey
+228	Turkmenistan
+231	Uganda
+232	Ukraine
+234	United Kingdom
+235	United States
+238	Uzbekistan
+241	Venezuela
+242	Vietnam
+245	Western Sahara
+246	Yemen
+247	Zambia
+248	Zimbabwe

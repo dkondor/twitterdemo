@@ -1,0 +1,269 @@
+1	Afghanistan
+2	Åland
+3	Albania
+4	Algeria
+5	American Samoa
+6	Andorra
+7	Angola
+10	Antigua and Barbuda
+11	Argentina
+12	Armenia
+15	Austria
+16	Azerbaijan
+17	Bahamas
+18	Bahrain
+19	Bangladesh
+20	Barbados
+21	Belarus
+22	Belgium
+23	Belize
+24	Benin
+25	Bermuda
+26	Bhutan
+27	Bolivia
+29	Bosnia and Herzegovina
+30	Botswana
+32	Brazil
+35	Brunei
+36	Bulgaria
+37	Burkina Faso
+38	Burundi
+39	Cambodia
+40	Cameroon
+42	Cape Verde
+44	Cayman Islands
+45	Central African Republic
+46	Chad
+47	Chile
+48	China
+52	Colombia
+54	Costa Rica
+55	Côte d'Ivoire
+56	Croatia
+57	Cuba
+59	Cyprus
+60	Czech Republic
+61	Democratic Republic of the Congo
+62	Denmark
+63	Djibouti
+64	Dominica
+65	East Timor
+66	Ecuador
+68	El Salvador
+69	Equatorial Guinea
+70	Eritrea
+71	Estonia
+72	Ethiopia
+74	Faroe Islands
+75	Fiji
+76	Finland
+77	France
+78	French Guiana
+80	French Southern Territories
+81	Gabon
+82	Gambia
+83	Georgia
+84	Germany
+85	Ghana
+87	Greece
+88	Greenland
+89	Guam
+90	Guatemala
+92	Guinea
+93	Guinea-Bissau
+94	Guyana
+95	Haiti
+97	Honduras
+98	Hong Kong
+99	Hungary
+100	Iceland
+101	India
+102	Indonesia
+103	Iran
+104	Iraq
+105	Ireland
+107	Israel
+108	Italy
+109	Jamaica
+110	Japan
+112	Kazakhstan
+113	Kenya
+115	Kosovo
+116	Kuwait
+117	Kyrgyzstan
+118	Laos
+119	Latvia
+120	Lebanon
+121	Lesotho
+122	Liberia
+124	Liechtenstein
+125	Lithuania
+126	Luxembourg
+128	Macedonia
+129	Madagascar
+130	Malawi
+131	Malaysia
+133	Mali
+136	Martinique
+137	Mauritania
+138	Mauritius
+139	Mayotte
+140	Mexico
+141	Micronesia
+142	Moldova
+144	Mongolia
+145	Montenegro
+147	Morocco
+148	Mozambique
+149	Myanmar
+150	Namibia
+151	Nauru
+152	Nepal
+153	Netherlands
+154	New Caledonia
+155	New Zealand
+156	Nicaragua
+157	Niger
+158	Nigeria
+161	North Korea
+162	Northern Mariana Islands
+163	Norway
+164	Oman
+165	Pakistan
+166	Palau
+167	Palestina
+168	Panama
+169	Papua New Guinea
+170	Paraguay
+171	Peru
+172	Philippines
+174	Poland
+175	Portugal
+176	Puerto Rico
+177	Qatar
+178	Republic of Congo
+179	Reunion
+181	Russia
+182	Rwanda
+183	Saint Helena
+184	Saint Kitts and Nevis
+185	Saint Lucia
+187	Saint Vincent and the Grenadines
+190	Samoa
+191	San Marino
+192	Sao Tome and Principe
+194	Senegal
+195	Serbia
+197	Sierra Leone
+200	Slovakia
+201	Slovenia
+202	Solomon Islands
+203	Somalia
+204	South Africa
+206	South Korea
+207	South Sudan
+208	Spain
+210	Sri Lanka
+211	Sudan
+212	Suriname
+213	Svalbard and Jan Mayen
+214	Swaziland
+215	Sweden
+216	Switzerland
+217	Syria
+218	Taiwan
+219	Tajikistan
+220	Tanzania
+221	Thailand
+222	Togo
+224	Tonga
+225	Trinidad and Tobago
+226	Tunisia
+227	Turkey
+229	Turks and Caicos Islands
+230	Tuvalu
+231	Uganda
+232	Ukraine
+233	United Arab Emirates
+234	United Kingdom
+237	Uruguay
+238	Uzbekistan
+239	Vanuatu
+241	Venezuela
+242	Vietnam
+243	Virgin Islands, U.S.
+246	Yemen
+247	Zambia
+248	Zimbabwe
+431	Australian Capital Territory
+433	New South Wales
+434	Northern Territory
+435	Queensland
+436	South Australia
+437	Tasmania
+439	Victoria
+440	Western Australia
+819	Alberta
+820	British Columbia
+821	Manitoba
+822	New Brunswick
+823	Newfoundland and Labrador
+824	Northwest Territories
+825	Nova Scotia
+826	Nunavut
+827	Ontario
+828	Prince Edward Island
+829	Québec
+830	Saskatchewan
+831	Yukon
+3406	Alabama
+3407	Alaska
+3408	Arizona
+3409	Arkansas
+3410	California
+3411	Colorado
+3412	Connecticut
+3413	Delaware
+3414	District of Columbia
+3415	Florida
+3416	Georgia (USA)
+3417	Hawaii
+3418	Idaho
+3419	Illinois
+3420	Indiana
+3421	Iowa
+3422	Kansas
+3423	Kentucky
+3424	Louisiana
+3425	Maine
+3426	Maryland
+3427	Massachusetts
+3428	Michigan
+3429	Minnesota
+3430	Mississippi
+3431	Missouri
+3432	Montana
+3433	Nebraska
+3434	Nevada
+3435	New Hampshire
+3436	New Jersey
+3437	New Mexico
+3438	New York
+3439	North Carolina
+3440	North Dakota
+3441	Ohio
+3442	Oklahoma
+3443	Oregon
+3444	Pennsylvania
+3445	Rhode Island
+3446	South Carolina
+3447	South Dakota
+3448	Tennessee
+3449	Texas
+3450	Utah
+3451	Vermont
+3452	Virginia
+3453	Washington
+3454	West Virginia
+3455	Wisconsin
+3456	Wyoming
