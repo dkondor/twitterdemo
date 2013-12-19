@@ -1,0 +1,81 @@
+.\GeoTest1.exe -i gangnam121106.txt -H 0xFECE32 -o gangnam121106.png -w 8000 -h 4000 -lc 0x405060 -lw 2 -s 0 1 -b 0xffffff
+
+.\GeoTest1.exe -i gangnam121023.txt -H 0xFECE32 -o gangnam121023.png -w 8000 -h 4000 -lc 0x405060 -lw 2 -s 0 1 -b 0xffffff
+
+.\GeoTest1.exe -i gangnam121009.txt -H 0xFECE32 -o gangnam121009.png -w 8000 -h 4000 -lc 0x405060 -lw 2 -s 0 1 -b 0xffffff
+
+.\GeoTest1.exe -i gangnam120925.txt -H 0xFECE32 -o gangnam120925.png -w 8000 -h 4000 -lc 0x405060 -lw 2 -s 0 1 -b 0xffffff
+
+.\GeoTest1.exe -i gangnam120910.txt -H 0xFECE32 -o gangnam120910.png -w 8000 -h 4000 -lc 0x405060 -lw 2 -s 0 1 -b 0xffffff
+
+.\GeoTest1.exe -i gangnam120827.txt -H 0xFECE32 -o gangnam120827.png -w 8000 -h 4000 -lc 0x405060 -lw 2 -s 0 1 -b 0xffffff
+
+.\GeoTest1.exe -i gangnam120814.txt -H 0xFECE32 -o gangnam120814.png -w 8000 -h 4000 -lc 0x405060 -lw 2 -s 0 1 -b 0xffffff
+
+.\GeoTest1.exe -i de5.txt -H 0xFECE32 -o de6.png -p EU -w 8000 -h 8000 -f 84 -lc 0x405060 -lw 2 -b 0xffffff
+
+.\GeoTest1.exe -i hu5.txt -H 0xFECE32 -o hu6.png -p EU -w 8000 -h 8000 -f 99 -lc 0x405060 -lw 2 -b 0xffffff
+
+.\GeoTest1.exe -i fr5.txt -H 0xFECE32 -o fr6.png -p EU -w 8000 -h 8000 -f 77 -lc 0x405060 -lw 2 -b 0xffffff
+
+
+.\DrawAllTweets.exe -w 8000 -h 4000 -o world2.png -C RedYellowT -b 0xffffff -lc 0x405060 -lw 2 -r 0xe3e3e3
+
+.\DrawAllTweets.exe -q "select lat,lon from Twitter..tweet where run_id in (1001,1002,1003,1004,2001,2004) and ( (htm_id >= 9070970929152 and htm_id < 9139690405888) or (htm_id >= 10170482556928 and htm_id < 10239202033664) or (htm_id >= 11269994184704 and htm_id < 11338713661440) or (htm_id >= 12369505812480 and htm_id < 12438225289216))" -w 8000 -h 4000 -o antarctica1.png -C RedYellowT -b 0xffffff -lc 0x405060 -lw 2 -r 0xe3e3e3
+
+.\DrawAllTweets.exe -q "select lat,lon from dkondor.dbo.atmpll1" -w 8000 -h 4000 -o antarctica1.png -C RedYellowT -b 0xffffff -lc 0x405060 -lw 2 -r 0xe3e3e3
+
+.\DrawAllTweets.exe -q "select lon,lat from Twitter..tweet where run_id in (1001,1002,1003,1004,2001,2004) and [user_id] = 61043461" -w 3200 -h 1600 -o hex64.png -b 0x000000
+
+.\DrawAllTweets.exe -q "select lon,lat from dkondor.dbo.atmpll2 where [user_id] != 61043461" -w 3200 -h 1600 -o antarctica4.png -b 0x000000
+
+.\DrawAllTweets.exe -q "select lon,lat from Twitter..tweet where run_id in (1001,1002,1003,1004,2001,2004) and [user_id] = 188131343 and lon is not null" -w 3200 -h 1600 -o isom.png -b 0x000000
+
+.\DrawAllTweets.exe -q "select lon,lat from Twitter..tweet where run_id in (1001,1002,1003,1004,2001,2004) and [user_id] = 427657635 and lon is not null" -w 3200 -h 1600 -o dicesat.png -b 0x000000
+
+
+tweets from Germany
+.\DrawAllTweets.exe -q "select lon,lat from dkondor.dbo.tpcadetweets t1 join Twitter..tweet t2 on t1.run_id = t2.run_id and t1.tweet_id = t2.tweet_id" -w 3200 -h 1600 -o tweetsde.png -b 0x000000
+
+
+
+**************************************************
+CoginfoCom '13 előadáshoz (USA tweetek heatmap):
+.\DrawAllTweets.exe -q "select lon,lat from dkondor.dbo.htm6usatweets" -w 8000 -h 4000 -o usatweets1.png -C RedYellowT -b 0xffffff -lc 0x405060 -lw 2 -r 0xe3e3e3 -v usawide
+
+**************************************************
+régiókba sorolás után kimaradt tweetek eloszlása:
+.\DrawAllTweets.exe -q "select lon,lat from dkondor.dbo.tweets_missing" -w 3200 -h 1600 -o missingtweets.png -C RedYellowT -b 0xffffff -lc 0x405060 -lw 2 -r 0xe3e3e3 -v world -c "Server=FUTURE1;Integrated Security=True;"
+
+teljesen kimaradt tweetek:
+.\DrawAllTweets.exe -q "select lon,lat from dkondor.dbo.tweets_ocean" -w 3200 -h 1600 -o oceantweets.png -C RedYellowT -b 0xffffff -lc 0x405060 -lw 2 -r 0xe3e3e3 -v world -c "Server=FUTURE1;Integrated Security=True;"
+
+
+nmf tesztfuttatás:
+.\nmftest1.exe -C "Server=RETDB02; Integrated Security=True;" -t tpcatwusa6cnorm -r htmid6 -c wid -v cntn -W tpcatwusa6nmfW -H tpcatwusa6nmfH -WH tpcatwusa6nmfWH
+
+
+*************************************************
+Windows 8 térbeli terjedés vizsgálata
+U:\My Documents\twitter\windows8>
+..\twitterdemo\DrawAllTweets\bin\Release\DrawAllTweets.exe -q "select lon,lat from dkondor.dbo.win8tweetst1 where d = 15398" -w 3200 -h 1600 -o d15398.png -v world -c "Server=FUTURE1;Integrated Security=True;"
+
+..\twitterdemo\DrawAllTweets\bin\Release\DrawAllTweets.exe -q "select lon,lat from dkondor.dbo.win8tweetst1 where d = 15398" -w 2000 -h 1000 -o d15398.png -v world -c "Server=FUTURE1;Integrated Security=True;" -k 10
+
+for i in (seq 15398 15402)
+echo "..\twitterdemo\DrawAllTweets\bin\Release\DrawAllTweets.exe -q \"select lon,lat from dkondor.dbo.win8tweetst1 where d = $i\" -w 2000 -h 1000 -o d$i.png -v world -c \"Server=FUTURE1;Integrated Security=True;\" -k 10 -C RedYellowT -b 0xffffff -lc 0x405060 -lw 2 -r 0xe3e3e3"
+end
+
+for /L %i in (15398,1,15402) do ..\twitterdemo\DrawAllTweets\bin\Release\DrawAllTweets.exe -q "select lon,lat from dkondor.dbo.win8tweetst1 where d = %i" -w 2000 -h 1000 -o d%i.png -v world -c "Server=FUTURE1;Integrated Security=True;" -k 13 -C RedYellowT -b 0xffffff -lc 0x405060 -lw 2 -r 0xe3e3e3
+
+for i in (seq 15635 15651)
+echo "..\twitterdemo\DrawAllTweets\bin\Release\DrawAllTweets.exe -q \"select lon,lat from dkondor.dbo.win8tweetst2 where d = $i\" -w 2000 -h 1000 -o d$i.png -v world -c \"Server=FUTURE1;Integrated Security=True;\" -k 10 -C RedYellowT -b 0xffffff -lc 0x405060 -lw 2 -r 0xe3e3e3"
+end
+
+for /L %i in (15635,1,15651) do ..\twitterdemo\DrawAllTweets\bin\Release\DrawAllTweets.exe -q "select lon,lat from dkondor.dbo.win8tweetst2 where d = %i" -w 2000 -h 1000 -o d%i.png -v world -c "Server=FUTURE1;Integrated Security=True;" -k 13 -C RedYellowT -b 0xffffff -lc 0x405060 -lw 2 -r 0xe3e3e3
+
+
+..\twitterdemo\DrawAllTweets\bin\Release\DrawAllTweets.exe -q "select lon,lat from dkondor.dbo.win8tweetst1" -w 2000 -h 1000 -o all-201202.png -v world -c "Server=FUTURE1;Integrated Security=True;" -k 13 -C RedYellowT -b 0xffffff -lc 0x405060 -lw 2 -r 0xe3e3e3
+
+
+
